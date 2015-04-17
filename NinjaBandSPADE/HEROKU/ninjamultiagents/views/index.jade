@@ -1,0 +1,15 @@
+extends layout
+
+block content
+
+  <img src="https://dl.dropboxusercontent.com/u/43615080/logo.jpg" width="361" height="173" border="0" alt="Logo ITESM">    
+  h1(id="id1") Ninja Web App for Home Automation 
+  p Welcome to a web app for interacting with the Ninja Block. It was designed by Francisco Medina  from ITESM Monterrey with the help of the tutorial available
+  <a href="http://docs.ninja.is/quickstarts/apprealm/deployyourapplication.html">here.</a>
+  p The second test will consist of a couple of buttons that turn the light bulb ON and OFF. Use the buttons below to actuate over the ninja.
+  form(name="input1" action="/turn_on" method="post")
+    input(type="submit" value="Turn ON")
+  form(name="input2" action="/turn_off" method="post")
+    input(type="submit" value="Turn OFF")
+
+

@@ -1,0 +1,17 @@
+
+<server>
+    <servernames>
+        <name>10.12.19.67</name>
+    </servernames>
+    <certificate file="xmppd.pem"/>
+    <plugins>
+        <MUC jid="muc.10.12.19.67" name="SPADE MUC Component"/>
+        <WQ jid="wq.10.12.19.67" name="SPADE Workgroup Queues"/>
+    </plugins>
+    <components>
+        <AMS jid="ams.10.12.19.67" name="AMS" username="ams" password="kqkhDhPO"/>
+        <DF jid="df.10.12.19.67" name="DF" username="df" password="kLhpUdvw"/>
+        <ACC jid="acc.10.12.19.67" name="ACC" username="acc" password="ohOUnrJQ"/>
+    </components>
+</server>
+        
